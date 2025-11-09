@@ -16,6 +16,10 @@
 
 ## Rationale and Recent Update 
 
+### Question to Answer: 
+
+`**Predict the next day price by giving a specific input**` 
+
 ### 🧠 Rationale: 
 
 - "Most of the business problems are not ML problems, and most of the ML problems are not business problems" from Production Lecture Day 1 : 36:58.
@@ -31,11 +35,11 @@
 
 This idea here is focuses on isolating core predictive patterns rather than modeling every variable. The goal is to extract essential signals using available and ready to use algorithms by adopting the 80/20 rules — to keep the model both interpretable and computationally efficient.
 
-  1. Quick test of avialable common stock models (ARIMA, LSTRM, etc) with representive stocks (AAPL, INTC, MSFT) ✅  
+  1. Quick test of available common stock models (ARIMA, LSTM, etc.) with representive stocks (AAPL, INTC, MSFT) ✅  
 
   2. Assess the baseline performance using randomness robustness, regression, residual analysis (Test 1 to Test 6)✅  
   
-  3. Tuning by featuring engineering and re-assess the tuned model (Test 7, 8, 9)✅  
+  3. Tuning by featuring engineering (`close_price`, `return_7d`,`streak_up`, `streak_down`,`range_ratio`) and re-assess the tuned model for randomness robustness (Test 7, 8, 9)✅  
   
   4. Applying the same approach to the same sectors"TBD/exploratory?(TBD)”
   
