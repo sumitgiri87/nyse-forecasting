@@ -45,7 +45,8 @@ source .venv/Scripts/activate  # Windows Git Bash
 # install required packages
 pip install -r requirements.txt
 ```
-
+> *Note:*
+> Windows users with <u>Windows Long Path</u> support *disabled*, should use: **pip install --no-cache-dir -r requirements.txt**
 ---
 
 ## 4. Running experiment tracking services
