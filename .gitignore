@@ -1,12 +1,9 @@
 # Python
 __pycache__/
 *.pyc
-*.py[cod]
-*$py.class
 
 # Virtual environment
 .venv/
-venv/
 env/
 
 # Logs
@@ -17,23 +14,6 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints/
 
-# PyCharm / VSCode project settings
-.idea/
-.vscode/
-
-# Data files
 data/processed/
 src/.env
-
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-.eggs/
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
